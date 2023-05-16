@@ -1,0 +1,46 @@
+table {
+  margin: auto;
+}
+table,
+thead,
+tr,
+th,
+td {
+  border: 1px solid black;
+  border-collapse: collapse;
+  padding: 10px 20px;
+}
+
+.userlist {
+  width: 90%;
+  margin: auto;
+}
+
+.head {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 30px 0px;
+}
+
+button {
+  border-radius: 10px;
+  font-size: larger;
+  background-color: white;
+  color: black;
+  border: 1px solid black;
+  outline: none;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.action button {
+  margin: 0px 10px;
+}
+
+.editinput {
+  outline: none;
+  width: 120px;
+  height: 30px;
+  padding-left: 3px;
+}

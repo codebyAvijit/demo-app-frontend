@@ -1,0 +1,54 @@
+.formsection {
+  width: 90%;
+  margin: 20px auto;
+  padding: 5px;
+  border: 1px solid gray;
+}
+.form-sec-head {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 20px 0px;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  margin: auto;
+}
+form .input {
+  display: flex;
+  margin: 10px 0px;
+  font-size: 20px;
+}
+.input label {
+  width: 20%;
+  font-size: 25px;
+}
+#active {
+  height: 35px;
+  width: 35px;
+}
+
+.input input {
+  width: 80%;
+  height: 35px;
+  padding-left: 10px;
+  font-size: 20px;
+}
+.input select {
+  width: 80%;
+  height: 35px;
+  padding-left: 10px;
+  font-size: 20px;
+}
+
+.inputbtn {
+  text-align: end;
+}
+.error {
+  text-align: center;
+  font-size: larger;
+  margin: 5px 0px;
+  color: red;
+}
